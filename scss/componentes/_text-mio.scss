@@ -1,0 +1,5 @@
+.text-mio{
+    color:$coloruno;
+    @extend %textos;
+    @include textos-size (1.5rem,3rem)
+}

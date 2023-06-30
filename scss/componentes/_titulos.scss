@@ -1,0 +1,5 @@
+.titulos{
+    color:$coloruno;
+    @include textos-size (2rem,1rem);
+    @extend %textos;
+}

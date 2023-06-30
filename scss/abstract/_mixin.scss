@@ -1,0 +1,4 @@
+@mixin textos-size($fs,$pdn,){
+    font-size: $fs;
+    padding: $pdn;
+}

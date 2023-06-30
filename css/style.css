@@ -1,0 +1,75 @@
+.titulos, .text-mio, .footer-fondo {
+  text-align: center;
+}
+
+.navbar-mia {
+  background: #373B44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-mia a:hover {
+  transform: scale(1.2);
+  transition: all 1.2s;
+}
+
+.navbar-mia li a:hover {
+  transform: scale(1.2);
+  transition: all 1.2s;
+}
+
+@media (max-width: 992px) {
+  .navbar-mia li a {
+    text-align: end;
+    padding-right: 1.5rem;
+  }
+  .navbar-mia li a:hover {
+    transform: scaleX(1.2);
+    transform-origin: right;
+  }
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.fondo {
+  background: #373B44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.footer-fondo {
+  background: #373B44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-fondo p {
+  margin-bottom: 0;
+}
+
+.redes a i {
+  padding: 0 1rem 0 1rem;
+}
+
+.text-mio {
+  color: rgb(252, 223, 223);
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+
+.titulos {
+  color: rgb(252, 223, 223);
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.imagenes-sobremi img:hover {
+  transform: scale(1.1);
+  transition: all 1.5s linear;
+}
+
+/*# sourceMappingURL=style.css.map */
