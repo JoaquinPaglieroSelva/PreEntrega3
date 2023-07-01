@@ -1,0 +1,13 @@
+@media (max-width: 992px){
+    .navbar-mia li a{
+        text-align: end;
+        padding-right: 1.5rem;
+    }
+    .navbar-mia li a:hover{
+        transform:scaleX(1.2);
+        transform-origin:right;
+    }
+    .text-mio{
+        @include textos-size (1em,1em)
+    }
+    }

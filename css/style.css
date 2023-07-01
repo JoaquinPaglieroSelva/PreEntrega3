@@ -18,16 +18,6 @@
   transition: all 1.2s;
 }
 
-@media (max-width: 992px) {
-  .navbar-mia li a {
-    text-align: end;
-    padding-right: 1.5rem;
-  }
-  .navbar-mia li a:hover {
-    transform: scaleX(1.2);
-    transform-origin: right;
-  }
-}
 * {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -37,8 +27,12 @@
   background: #373B44; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
   min-height: 100vh;
+}
+
+.imagen.mia {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-fondo {
@@ -61,6 +55,20 @@
   padding: 3rem;
 }
 
+@media (max-width: 992px) {
+  .navbar-mia li a {
+    text-align: end;
+    padding-right: 1.5rem;
+  }
+  .navbar-mia li a:hover {
+    transform: scaleX(1.2);
+    transform-origin: right;
+  }
+  .text-mio {
+    font-size: 1em;
+    padding: 1em;
+  }
+}
 .titulos {
   color: rgb(252, 223, 223);
   font-size: 2rem;

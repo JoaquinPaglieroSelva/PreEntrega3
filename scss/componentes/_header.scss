@@ -12,14 +12,4 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
 transform: scale(1.2);
 transition: all 1.2s;
 }
-@media (max-width: 992px){
-    .navbar-mia li a{
-        text-align: end;
-        padding-right: 1.5rem;
-    }
-    .navbar-mia li a:hover{
-        transform:scaleX(1.2);
-        transform-origin:right;
-    }
-}
 
