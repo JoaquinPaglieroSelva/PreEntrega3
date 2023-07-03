@@ -1,18 +1,29 @@
-@media (max-width: 992px){
-    .navbar-mia li a{
-        text-align: end;
-        padding-right: 1.5rem;
+@media (max-width: 992px) {
+    .navbar-mia {
+        li {
+            a {
+                text-align: end;
+                padding-right: 1.5rem;
+            }
+        }
     }
-    .navbar-mia li a:hover{
-        transform:scaleX(1.2);
-        transform-origin:right;
+
+    .navbar-mia {
+        li {
+            a:hover {
+                transform: scaleX(1.2);
+                transform-origin: right;
+            }
+        }
     }
-    .text-mio{
-        @include textos-size (1em,1em)
+
+    .text-mio {
+        @include textos-size (1em, 1em)
     }
-    }
-@media (max-width:1300px){
-    .imagen-mia{
+}
+
+@media (max-width:1300px) {
+    .imagen-mia {
         width: 300px;
         height: 300px;
     }

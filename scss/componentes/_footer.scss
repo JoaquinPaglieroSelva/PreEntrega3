@@ -4,10 +4,16 @@ background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-
 background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 @extend %textos;
 }
-.footer-fondo p{
-    margin-bottom: 0;
+.footer-fondo{
+    p{
+    margin-bottom: 0;}
 }
 
-.redes a i{
-    padding:0 1rem 0 1rem ;
+.redes{
+    a{
+        i{
+            padding:0 1rem 0 1rem ;
+        }
+    }
+    
 }
