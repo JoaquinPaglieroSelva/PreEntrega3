@@ -100,10 +100,6 @@ body::-webkit-scrollbar-track {
 }
 
 .imagenes-index {
-  justify-content: center;
-}
-
-.imagenes-index {
   width: 150px;
   height: 150px;
 }
