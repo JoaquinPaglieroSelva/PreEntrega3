@@ -23,6 +23,24 @@
   font-weight: 600;
 }
 
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #373B44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+  border: 2px outset #4463ad;
+}
+
+body::-webkit-scrollbar-track {
+  background: #373B44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .fondo {
   background: #373B44; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
@@ -79,6 +97,15 @@
 .imagenes-sobremi img:hover {
   transform: scale(1.1);
   transition: all 1.5s linear;
+}
+
+.imagenes-index {
+  justify-content: center;
+}
+
+.imagenes-index {
+  width: 150px;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
