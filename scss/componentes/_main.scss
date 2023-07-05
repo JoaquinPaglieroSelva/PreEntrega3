@@ -5,6 +5,10 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 
     min-height: 100vh;
 }
+.container-index{
+    justify-content:  map-get($container-styles, justify-content);
+    align-items: map-get($container-styles, align-items);
+}
 
 
 

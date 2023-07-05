@@ -51,12 +51,16 @@ body::-webkit-scrollbar-track {
   min-height: 100vh;
 }
 
+.container-index {
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-fondo {
   background: #373B44; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 .footer-fondo p {
   margin-bottom: 0;
 }
@@ -105,6 +109,11 @@ body::-webkit-scrollbar-track {
 .imagenes-index {
   width: 150px;
   height: 150px;
+}
+
+.imagenes-index:hover {
+  transform: scale(1.1);
+  transition: all 1.1s;
 }
 
 /*# sourceMappingURL=style.css.map */

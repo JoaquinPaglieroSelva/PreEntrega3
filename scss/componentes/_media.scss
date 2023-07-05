@@ -8,7 +8,7 @@
         }
     }
 
-    .navbar-mia {
+    .navbar-mia{
         li {
             a:hover {
                 transform: scaleX(1.2);
@@ -17,7 +17,7 @@
         }
     }
 
-    .text-mio {
+    .text-mio{
         @include textos-size (1em, 1em)
     }
 }
