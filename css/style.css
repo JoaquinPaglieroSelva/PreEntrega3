@@ -102,6 +102,9 @@ body::-webkit-scrollbar-track {
   padding: 1rem;
 }
 
+.imagenes-sobremi img {
+  padding: 1em;
+}
 .imagenes-sobremi img:hover {
   transform: scale(1.1);
   transition: all 1.5s linear;
@@ -110,6 +113,7 @@ body::-webkit-scrollbar-track {
 .imagenes-index {
   width: 150px;
   height: 150px;
+  padding: 1em;
 }
 
 .imagenes-index:hover {
