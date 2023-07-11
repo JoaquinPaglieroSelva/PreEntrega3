@@ -49,6 +49,7 @@ body::-webkit-scrollbar-track {
   background: -webkit-linear-gradient(to right, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .container-index {
@@ -102,8 +103,8 @@ body::-webkit-scrollbar-track {
   padding: 1rem;
 }
 
-.imagenes-sobremi img {
-  padding: 1em;
+.imagenes-sobremi {
+  padding: 2em;
 }
 .imagenes-sobremi img:hover {
   transform: scale(1.1);
